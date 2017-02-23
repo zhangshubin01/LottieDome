@@ -25,7 +25,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
-//        LottieAnimationView mAnimationView1 = (LottieAnimationView) findViewById(R.id.animation_view1);
         mAnimationView1.setAnimation("all.json");
         mAnimationView1.loop(true);
     }
